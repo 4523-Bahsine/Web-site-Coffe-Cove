@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Caffeine Cove</title>
+
+
+<!-- HEADER -->
+<header id="header">
+    <nav class="navbar">
+        <a href="#home" class="logo-text">CAFFEINE <span>COVE</span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#testimonials">Avis</a></li>
+            <li><a href="#contact" class="nav-cta">Réserver</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="home">
+    <div class="hero-bg"></div>
+    <div class="container">
+        <div class="hero-inner">
+            <div class="hero-text">
+                <div class="hero-tag"><i class="fa-solid fa-star"></i> Torréfaction artisanale depuis 2015</div>
+                <h1 class="hero-h1">L'art du café<br>dans votre <em>tasse</em></h1>
+                <p class="hero-p">Un espace chaleureux au cœur de Marrakech, où chaque café est préparé avec passion, des grains sélectionnés pour vous offrir une expérience unique.</p>
+                <div class="hero-actions">
+                    <a href="#menu" class="btn-primary"><i class="fa-solid fa-mug-hot"></i> Voir le menu</a>
+                    <a href="#contact" class="btn-ghost"><i class="fa-solid fa-calendar-check"></i> Réserver une table</a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <div class="stat-num">12+</div>
+                        <div class="stat-label">Origines de café</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">2k+</div>
+                        <div class="stat-label">Clients fidèles</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">4.9</div>
+                        <div class="stat-label">Note moyenne</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-img-wrap">
+                <img src="images/coffee-home.png" alt="café artisanal Caffeine Cove">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="container">
+        <div class="about-grid reveal">
+            <div class="about-img-wrap">
+                <img src="images/about-img.png" alt="Notre café">
+                <div class="about-badge"><strong>10</strong>ans<br>d'expérience</div>
+            </div>
+            <div class="about-content">
+                <p class="section-label">Notre histoire</p>
+                <h2 class="section-title">Bienvenue chez<br><span style="color:var(--gold)">Caffeine Cove</span></h2>
+                <p class="about-lead">Fondé au cœur de Marrakech, Caffeine Cove est né d'une passion pour le café d'exception. Nous sélectionnons chaque grain avec soin pour vous offrir une expérience gustative authentique dans un cadre apaisant.</p>
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-couch"></i></div>
+                        <h4>Espace cosy</h4>
+                        <p>Un cadre intime et chaleureux pour se détendre.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-leaf"></i></div>
+                        <h4>100% durable</h4>
+                        <p>Grains issus de cultures responsables et équitables.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-award"></i></div>
+                        <h4>Qualité premium</h4>
+                        <p>Torréfaction artisanale, recettes maison.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-wifi"></i></div>
+                        <h4>Espace travail</h4>
+                        <p>Wi-Fi rapide, prises, ambiance zen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MENU -->
+<section id="menu">
+    <div class="container">
+        <div class="menu-header reveal">
+            <p class="section-label">Ce que nous servons</p>
+            <h2 class="section-title">Notre menu populaire</h2>
+            <div class="menu-tabs">
+                <button class="tab active">Tous</button>
+                <button class="tab">Espressos</button>
+                <button class="tab">Lattes</button>
+                <button class="tab">Spéciaux</button>
+            </div>
+        </div>
+        <div class="menu-grid reveal">
+            <div class="menu-card">
+                <div class="menu-card-img"><img src="images/menu-1.png" alt="Espresso"></div>
+                <div class="menu-card-body">
+                    <h3>Espresso</h3>
+                    <p>Intense et velouté, tiré avec précision sur nos grains sélectionnés.</p>
+                    <div class="menu-card-footer">
+                        <span class="menu-price">19.99 Dh</span>
+                        <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-img"><img src="images/menu-2.png" alt="Americano"></div>
+                <div class="menu-card-body">
+                    <h3>Americano</h3>
+                    <p>Long et équilibré, l'espresso allongé pour les matins tranquilles.</p>
+                    <div class="menu-card-footer">
+                        <span class="menu-price">22.00 Dh</span>
+                        <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-img"><img src="images/menu-3.png" alt="Cappuccino"></div>
+                <div class="menu-card-body">
+                    <h3>Cappuccino</h3>
+                    <p>Mousse de lait onctueuse sur un espresso corsé, un classique.</p>
+                    <div class="menu-card-footer">
+                        <span class="menu-price">25.00 Dh</span>
+                        <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-img"><img src="images/menu-4.png" alt="Latte"></div>
+                <div class="menu-card-body">
+                    <h3>Café Latte</h3>
+                    <p>Doux et crémeux, parfait pour les amateurs de lait chaud.</p>
+                    <div class="menu-card-footer">
+                        <span class="menu-price">26.00 Dh</span>
+                        <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-img"><img src="images/menu-5.png" alt="Cold Brew"></div>
+                <div class="menu-card-body">
+                    <h3>Cold Brew</h3>
+                    <p>Infusé 18h à froid, doux et rafraîchissant, zéro amertume.</p>
+                    <div class="menu-card-footer">
+                        <span class="menu-price">28.00 Dh</span>
+                        <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-img"><img src="images/menu-6.png" alt="Flat White"></div>
+                <div class="menu-card-body">
+                    <h3>Flat White</h3>
+                    <p>Double espresso, micro-mousse soyeuse — l'équilibre parfait.</p>
+                    <div class="menu-card-footer">
+                        <span class="menu-price">27.00 Dh</span>
+                        <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-img"><img src="images/menu-7.png" alt="Cortado"></div>
+                <div class="menu-card-body">
+                    <h3>Cortado</h3>
+                    <p>Espresso coupé de lait chaud, pour les palais exigeants.</p>
+                    <div class="menu-card-footer">
+                        <span class="menu-price">24.00 Dh</span>
+                        <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-img"><img src="images/menu-8.png" alt="Mocha"></div>
+                <div class="menu-card-body">
+                    <h3>Mocha</h3>
+                    <p>Espresso, chocolat fondant et lait mousseux — un pur plaisir.</p>
+                    <div class="menu-card-footer">
+                        <span class="menu-price">29.00 Dh</span>
+                        <div class="add-btn"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+    <div class="container">
+        <div class="testi-header reveal">
+            <p class="section-label">Ils nous font confiance</p>
+            <h2 class="section-title">Ce que disent nos clients</h2>
+        </div>
+        <div class="testi-grid reveal">
+            <div class="testi-card">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Un endroit hors du temps. Le cappuccino est tout simplement parfait, la mousse est incroyable. Je reviens chaque semaine sans hésitation."</blockquote>
+                <div class="testi-author">
+                    <img src="images/person1.jpg" alt="Mohammed Ramadan" class="testi-avatar">
+                    <div>
+                        <div class="testi-name">Mohammed Ramadan</div>
+                        <div class="testi-role">Client régulier</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <div class="stars">★★★★★</div>
+                <blockquote>"L'ambiance est chaleureuse, le service impeccable. Le cold brew est une révélation — je n'avais jamais bu quelque chose d'aussi doux."</blockquote>
+                <div class="testi-author">
+                    <img src="images/person2.jpg" alt="Islam Mohammed" class="testi-avatar">
+                    <div>
+                        <div class="testi-name">Islam Mohammed</div>
+                        <div class="testi-role">Designer freelance</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <div class="stars">★★★★★</div>
+                <blockquote>"Meilleur café de Marrakech, sans aucun doute. On sent que les grains sont vraiment sélectionnés avec soin. Je recommande à tous mes amis."</blockquote>
+                <div class="testi-author">
+                    <img src="images/person3.jpg" alt="Mostafa Achraf" class="testi-avatar">
+                    <div>
+                        <div class="testi-name">Mostafa Achraf</div>
+                        <div class="testi-role">Entrepreneur</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <div style="text-align:center; margin-bottom:3.5rem;" class="reveal">
+            <p class="section-label">Nous rejoindre</p>
+            <h2 class="section-title">Réservez votre table</h2>
+        </div>
+        <div class="contact-grid reveal">
+            <div class="contact-info">
+                <h3>Venez nous rendre visite</h3>
+                <p>Réservez en ligne ou passez directement — nous serons ravis de vous accueillir dans notre espace chaleureux au cœur de Marrakech.</p>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="contact-item-text">
+                            <strong>Adresse</strong>
+                            Marrakech, Maroc
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="contact-item-text">
+                            <strong>Email</strong>
+                            sanabahsine26@gmail.com
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="contact-item-text">
+                            <strong>Téléphone</strong>
+                            +212 717 851 415
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fa-solid fa-clock"></i></div>
+                        <div class="contact-item-text">
+                            <strong>Horaires</strong>
+                            Lun–Dim : 08h00 – 22h00
+                        </div>
+                    </div>
+                </div>
+                <div class="map-wrap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.5553903888217!2d-7.984918025712!3d31.646021683826465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee0ca5b73109%3A0x911a9fbd129747e0!2zU25hY2sgbmFraGlsINiz2YbYp9mDINin2YTZhtix2YrZhA!5e0!3m2!1sfr!2sma!4v1752009145388!5m2!1sfr!2sma" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Carte Caffeine Cove Marrakech"></iframe>
+                </div>
+            </div>
+            <div class="booking-form">
+                <h3>Réserver une table</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Prénom &amp; Nom</label>
+                        <input type="text" placeholder="Votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="votre@email.com">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Nombre de personnes</label>
+                        <input type="number" min="1" max="20" placeholder="2">
+                    </div>
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Heure</label>
+                    <input type="time">
+                </div>
+                <div class="form-group">
+                    <label>Message (optionnel)</label>
+                    <textarea placeholder="Demande spéciale, allergie..."></textarea>
+                </div>
+                <button class="btn-submit">Confirmer la réservation <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <div class="logo-text" style="font-size:20px;">CAFFEINE <span>COVE</span></div>
+                <p>Un café artisanal au cœur de Marrakech, dédié à l'excellence et à l'authenticité depuis 2015.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#testimonials">Avis</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#menu">Espresso</a></li>
+                    <li><a href="#menu">Cappuccino</a></li>
+                    <li><a href="#menu">Cold Brew</a></li>
+                    <li><a href="#menu">Flat White</a></li>
+                    <li><a href="#menu">Mocha</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Horaires</h4>
+                <ul>
+                    <li><a>Lun – Ven : 08h–22h</a></li>
+                    <li><a>Sam – Dim : 09h–23h</a></li>
+                    <li><a style="color:var(--gold)">Ouvert aujourd'hui</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Caffeine Cove — Fait avec <span style="color:var(--gold)">♥</span> par <a href="#">Sana Bahsine</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Header scroll effect
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+        header.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.12 });
+    reveals.forEach(r => observer.observe(r));
+
+    // Smooth active nav
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+        let current = '';
+        sections.forEach(s => {
+            if (window.scrollY >= s.offsetTop - 120) current = s.id;
+        });
+        navLinks.forEach(a => {
+            a.style.color = a.getAttribute('href') === '#' + current ? 'var(--text)' : '';
+        });
+    });
+</script>
+</body>
+</html>
