@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *,
 *::before,
 *::after {
@@ -968,7 +968,7 @@ footer {
     font-size: 18px;
   }
 }
-=======
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;600&display=swap');
 
 *{
@@ -1138,7 +1138,8 @@ a{
 
 /* ================= MENU ================= */
 
-/*Menu section*/ #menu{ background-color: var(--bg--secondary); } #menu   .row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 5rem; margin-top:2rem ; align-items: center; } #menu   .row  img{ width: 80px; margin-left: -40px; } #menu   .row  .col .item{ display: flex; align-items: center; justify-content: space-between; margin: 30px 0; border: 1px solid #ddd; padding: 25px 2opx; } #menu   .row  .col .item p{ font-size: 14px; line-height: 1.6; } #menu   .row  .col .item details{ margin-left: 20px; } #menu   .row  .col .item  h3{ font-size: 20px; margin-bottom: 15px; } #menu .price{ border-left: 1px solid #eee; padding: 20px; margin: auto; } #menu .price p{ font-size: 20px; font-weight: 600; }
+/*Menu section*/ 
+#menu{ background-color: var(--bg--secondary); } #menu   .row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 5rem; margin-top:2rem ; align-items: center; } #menu   .row  img{ width: 80px; margin-left: -40px; } #menu   .row  .col .item{ display: flex; align-items: center; justify-content: space-between; margin: 30px 0; border: 1px solid #ddd; padding: 25px 2opx; } #menu   .row  .col .item p{ font-size: 14px; line-height: 1.6; } #menu   .row  .col .item details{ margin-left: 20px; } #menu   .row  .col .item  h3{ font-size: 20px; margin-bottom: 15px; } #menu .price{ border-left: 1px solid #eee; padding: 20px; margin: auto; } #menu .price p{ font-size: 20px; font-weight: 600; }
 
 /* ================= TESTIMONIALS ================= */
 
@@ -1240,4 +1241,4 @@ a{
     padding: 25px 0;
     text-align: center;
 }
->>>>>>> 853fe178e33c37cf83e3049458eafe7ef08dc158
+
